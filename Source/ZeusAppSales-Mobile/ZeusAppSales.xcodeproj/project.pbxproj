@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1FBAD9E3161FA1950038E149 /* ZeusAppSales-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FBAD9E2161FA1950038E149 /* ZeusAppSales-Info.plist */; };
 		1FBAD9E5161FA1D80038E149 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FBAD9E4161FA1D80038E149 /* Icon.png */; };
 		1FBAD9E7161FA1DC0038E149 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FBAD9E6161FA1DC0038E149 /* Icon@2x.png */; };
 		1FBAD9E9161FA1E40038E149 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FBAD9E8161FA1E40038E149 /* Icon-72.png */; };
@@ -1433,6 +1432,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F0F6EF0162154C2005F977B /* Strartup */ = {
+			isa = PBXGroup;
+			children = (
+				1FBAD9F6161FA21A0038E149 /* Default@2x.png */,
+				1FBAD9F4161FA2120038E149 /* Default.png */,
+				1FBAD9F2161FA2040038E149 /* Default-Landscape@2x~ipad.png */,
+				1FBAD9F0161FA2010038E149 /* Default-Landscape~ipad.png */,
+				1FBAD9EE161FA1FD0038E149 /* Default-Portrait~ipad.png */,
+				1FBAD9EC161FA1F90038E149 /* Default-Portrait@2x~ipad.png */,
+				1FBAD9EA161FA1E80038E149 /* Icon-72@2x.png */,
+				1FBAD9E8161FA1E40038E149 /* Icon-72.png */,
+				1FBAD9E6161FA1DC0038E149 /* Icon@2x.png */,
+				1FBAD9E4161FA1D80038E149 /* Icon.png */,
+			);
+			name = Strartup;
+			sourceTree = "<group>";
+		};
 		7F1499D113BE312100D89064 /* Report Download */ = {
 			isa = PBXGroup;
 			children = (
@@ -1520,16 +1536,7 @@
 		7F709D1C13BC98860008DBAD = {
 			isa = PBXGroup;
 			children = (
-				1FBAD9F6161FA21A0038E149 /* Default@2x.png */,
-				1FBAD9F4161FA2120038E149 /* Default.png */,
-				1FBAD9F2161FA2040038E149 /* Default-Landscape@2x~ipad.png */,
-				1FBAD9F0161FA2010038E149 /* Default-Landscape~ipad.png */,
-				1FBAD9EE161FA1FD0038E149 /* Default-Portrait~ipad.png */,
-				1FBAD9EC161FA1F90038E149 /* Default-Portrait@2x~ipad.png */,
-				1FBAD9EA161FA1E80038E149 /* Icon-72@2x.png */,
-				1FBAD9E8161FA1E40038E149 /* Icon-72.png */,
-				1FBAD9E6161FA1DC0038E149 /* Icon@2x.png */,
-				1FBAD9E4161FA1D80038E149 /* Icon.png */,
+				1F0F6EF0162154C2005F977B /* Strartup */,
 				7F1B159E13C9D1CA00243AA3 /* Classes */,
 				7FAB532913DCF00F0027274F /* Other Sources */,
 				7F709D3413BC98860008DBAD /* Supporting Files */,
@@ -2411,7 +2418,7 @@
 		7F709D1E13BC98860008DBAD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Zeus Framework";
 			};
 			buildConfigurationList = 7F709D2113BC98860008DBAD /* Build configuration list for PBXProject "ZeusAppSales" */;
@@ -2995,7 +3002,6 @@
 				6D81576714CB44BE005E8F3F /* passcode_square_filled.png in Resources */,
 				6D81576814CB44BE005E8F3F /* passcode_square_filled@2x.png in Resources */,
 				7F97CFD5160CF9CF00313B1D /* Default-568h@2x.png in Resources */,
-				1FBAD9E3161FA1950038E149 /* ZeusAppSales-Info.plist in Resources */,
 				1FBAD9E5161FA1D80038E149 /* Icon.png in Resources */,
 				1FBAD9E7161FA1DC0038E149 /* Icon@2x.png in Resources */,
 				1FBAD9E9161FA1E40038E149 /* Icon-72.png in Resources */,
@@ -3157,7 +3163,7 @@
 				GCC_PREFIX_HEADER = "OtherSources/ZeusAppSales-Prefix.pch";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "Support/ZeusAppSales-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = ZeusAppSalesMobile;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -3171,7 +3177,7 @@
 				GCC_PREFIX_HEADER = "OtherSources/ZeusAppSales-Prefix.pch";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "Support/ZeusAppSales-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = ZeusAppSalesMobile;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
